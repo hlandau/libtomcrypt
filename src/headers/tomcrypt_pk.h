@@ -281,6 +281,8 @@ int ecc_ansi_x963_export(ecc_key *key, unsigned char *out, unsigned long *outlen
 int ecc_ansi_x963_import(const unsigned char *in, unsigned long inlen, ecc_key *key);
 int ecc_ansi_x963_import_ex(const unsigned char *in, unsigned long inlen, ecc_key *key, ltc_ecc_set_type *dp);
 
+int ecc_validate_point(ecc_key *key);
+
 int  ecc_shared_secret(ecc_key *private_key, ecc_key *public_key, 
                        unsigned char *out, unsigned long *outlen);
 

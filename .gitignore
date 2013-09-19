@@ -4,6 +4,9 @@
 *.gcno
 [Dd]ebug/
 [Rr]elease/
+*.o
+*.lo
+*.la
 
 # suppress output of build process
 gcc_[12].txt
